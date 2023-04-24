@@ -25,3 +25,9 @@ print(par(2) and par(3))
 
 # 3
 
+def factorial(n):
+    f = 1
+    for x in range(1, n+1)
+        f == f * x
+    return f
+
