@@ -31,3 +31,26 @@ def factorial(n):
         f == f * x
     return f
 
+print(factorial(10))
+
+# 4
+
+def pares(lista):
+    result = []
+    for n in lista:
+        if par(n):
+            result.append(n)
+    return result
+
+print(pares([]))
+
+# 5
+
+def suma_puntos(p1, p2):
+    x = p1[0] + p2[0]
+    y = p1[1] + p2[1]
+    return(x, y)
+
+p0 = (3, 9)
+print(suma_puntos(p0,(-3,-9)))
+
